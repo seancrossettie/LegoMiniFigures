@@ -1,4 +1,5 @@
 ﻿using System;
+using LegoMiniFigures.Heads;
 
 namespace LegoMiniFigures
 {
@@ -6,7 +7,16 @@ namespace LegoMiniFigures
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var head = new ConstructionWorkerHead();
+            head.Color = LegoColor.Yellow;
+
+            head.SayHi();
+
+            var batman = new BatmanHead();
+            batman.Color = LegoColor.Orange;
+
+            batman.SayHi();
+
         }
     }
 }

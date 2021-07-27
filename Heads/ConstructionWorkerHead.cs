@@ -6,10 +6,9 @@ using System.Threading.Tasks;
 
 namespace LegoMiniFigures.Heads
 {
-    class ConstructionWorkerHead
+    class ConstructionWorkerHead : HeadBase
     {
         public bool HasMullet { get; set; }
-        public string Color { get; set; }
         public int NumberOfTeeth { get; set; }
         public bool WearingHardHat { get; set; }
 
@@ -28,11 +27,6 @@ namespace LegoMiniFigures.Heads
                 NumberOfTeeth -= 1;
             
             Console.WriteLine($"The {Color} Construction Worker's Head is spinning after getting hit by a girder.");
-        }
-
-        public void SayHi()
-        {
-            Console.WriteLine("The Construction Worker Head say hello.");
         }
     }
 }
