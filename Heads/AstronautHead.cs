@@ -6,16 +6,10 @@ using System.Threading.Tasks;
 
 namespace LegoMiniFigures.Heads
 {
-    class AstronautHead
+    class AstronautHead : HeadBase
     {
-        public LegoColor Color { get; set; }
         public bool WearingHelmet { get; set; }
         public FacialHair FacialHair { get; set; }
-
-        public void SayHi()
-        {
-            Console.WriteLine("Major Tom to ground control...");
-        }
 
         public void Spin()
         {
