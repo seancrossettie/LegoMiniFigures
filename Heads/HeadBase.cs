@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace LegoMiniFigures.Heads
 {
-    class HeadBase
+    abstract class HeadBase
     {
         public LegoColor Color { get; set; }
 
@@ -14,5 +14,7 @@ namespace LegoMiniFigures.Heads
         {
             Console.WriteLine("Hi.");
         }
+
+        public abstract void Spin();
     }
 }

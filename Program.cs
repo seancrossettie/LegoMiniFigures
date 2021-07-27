@@ -15,8 +15,6 @@ namespace LegoMiniFigures
             var batman = new BatmanHead();
             batman.Color = LegoColor.Orange;
 
-            batman.SayHi();
-
         }
     }
 }
