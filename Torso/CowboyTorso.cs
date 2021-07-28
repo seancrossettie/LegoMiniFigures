@@ -22,7 +22,7 @@ namespace LegoMiniFigures.Torso
             Console.WriteLine("Cowboy friendly reaches for their holster.");
         }
 
-        public void LassoDance()
+        public static void LassoDance()
         {
             Console.WriteLine("Take a dance with my lasso.");
         }

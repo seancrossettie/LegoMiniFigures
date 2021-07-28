@@ -21,7 +21,7 @@ namespace LegoMiniFigures.Heads
             return WearingHardHat;
         }
 
-        public void Spin()
+        public override void Spin()
         {
             if (NumberOfTeeth > 0)
                 NumberOfTeeth -= 1;
