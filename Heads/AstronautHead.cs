@@ -11,7 +11,7 @@ namespace LegoMiniFigures.Heads
         public bool WearingHelmet { get; set; }
         public FacialHair FacialHair { get; set; }
 
-        public void Spin()
+        public override void Spin()
         {
             Console.WriteLine("The Astronaut spins to take in the beauty of the cosmos...");
         }
